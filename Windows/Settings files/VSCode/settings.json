@@ -1,0 +1,337 @@
+{
+//		   ------------------------------------------
+//		------ X3Hann Visual Studio Code settings ------
+// ----------------------------------------------------------
+//
+//					  List of extensions
+//-----------------------------------------------------------
+//	Bearded Theme, By BeardedBear;
+//	Material Icon Theme, By Philipp Kief;
+//	Rainbow CSV, by Mechatroner;
+//	Highlight, by Fabio Spampinato;
+//	CodeSnap, by Adpyke;
+//	vscode-pets, by Anthony Shaw;
+//
+//	Code Spell Checker, by Street Side Software;
+//	Error Lens, by Alexander;
+//	Sundial - Day/Night Theme/Settings Switch, By Marvin Heilemann;
+//	Code Runner, by Jun Han;
+//	Live Server, by Ritwick Dey;
+//	Live Share, by Microsoft;
+//
+//	PowerShell, By Microsoft;
+//	GitHub Pull Requests and Issues, By GitHub;
+//	GitHub Repositories, By GitHub;
+//	Jupyter, By Microsoft;
+//	Pylance, By Microsoft;
+//	Live Sass Compiler, by Ritwick Dey;
+//	Hex Editor, By Microsoft;
+//
+//	C/C++, By Microsoft;
+//	C#, By Microsoft;
+//  XML, By Red Hat;
+//	Python, By Microsoft;
+//	Extension Pack for Java, by Microsoft. includes: [
+//		Language Support for Java(TM), by Red Hat;
+//		Debugger for Java, by Microsoft;
+//		Test Runner for Java, by Microsoft;
+//		Maven for Java, by Microsoft;
+//		Project Manager for Java, by Microsoft;
+//		Visual Studio IntelliCode, by Microsoft;
+//	]
+//
+//----------------------------------------------------------- (Total: 29 extensions)
+
+
+// START of Per Language settings:
+	"[html]": {
+		"editor.suggest.insertMode": "replace",
+		"editor.wordWrap": "on",
+		"editor.insertSpaces": true,
+		"editor.tabSize": 2
+	},
+	"[xml][yaml][css]": {
+		"editor.insertSpaces": true,
+		"editor.tabSize": 2,
+	},
+// END of Per Language settings.
+
+
+// START of Text Editor settings:
+	"editor.acceptSuggestionOnEnter": "smart",
+	"editor.accessibilitySupport": "off",
+	"editor.bracketPairColorization.enabled": true,
+	"editor.cursorBlinking": "phase",
+	"editor.detectIndentation": false,
+	"editor.fastScrollSensitivity": 15,
+	"editor.fontFamily": "'Fira Code Retina', Consolas, 'Courier New', monospace",
+	"editor.fontLigatures": true,
+	"editor.fontSize": 13,
+	"editor.formatOnType": true,
+	"editor.guides.bracketPairs": "active",
+	"editor.insertSpaces": false,
+	"editor.lineNumbers": "relative",
+	"editor.linkedEditing": true,
+	"editor.links": false,
+	"editor.minimap.enabled": false,
+	"editor.padding.bottom": 150,
+	"editor.padding.top": 15,
+	"editor.renderLineHighlightOnlyWhenFocus": true,
+	"editor.rulers": [200],
+	"editor.scrollBeyondLastColumn": 20,
+	"editor.scrollBeyondLastLine": false,
+	"editor.scrollbar.horizontal": "hidden",
+	"editor.semanticHighlighting.enabled": true,
+	"editor.snippetSuggestions": "bottom",
+	"editor.suggestFontSize": 10, // Make it smaller than the editor font.
+	"security.workspace.trust.enabled": false,
+	"editor.tabCompletion": "on",
+	"editor.tabSize": 4,
+	"files.autoSave": "onWindowChange",
+	"files.hotExit": "onExitAndWindowClose",
+	"files.trimFinalNewlines": true,
+	"files.trimTrailingWhitespace": true,
+// END of Text Editor settings.
+
+
+// START of Workbench settings:
+	"workbench.startupEditor": "none",
+	"workbench.colorTheme": "Bearded Theme Earth",
+	"workbench.iconTheme": "material-icon-theme",
+	"workbench.productIconTheme": "fluent-icons",
+	"workbench.sideBar.location": "right",
+	"workbench.editor.restoreViewState": false,
+	"workbench.enableExperiments": false,
+	"workbench.colorCustomizations": {
+		"[Bearded Theme Solarized Light]": {
+			"terminal.foreground": "#5a5a5a",
+			"editorCursor.background": "#ff7300",
+			"editorCursor.foreground": "#ff7300",
+			"activityBar.background": "#FDF6E3",
+			"editorGroupHeader.tabsBackground": "#FDF6E3",
+			"tab.hoverBorder": "#2AA198",
+			"scrollbar.shadow": "#000000",
+
+			"editorBracketHighlight.foreground1": "#F5B400",
+			"editorBracketHighlight.foreground2": "#870082",
+			"editorBracketHighlight.foreground3": "#FF7B00",
+			"editorBracketHighlight.foreground4": "#8108C7",
+			"editorBracketHighlight.foreground5": "#A974FF",
+			"editorBracketHighlight.foreground6": "#FF7B00",
+			"editorBracketHighlight.unexpectedBracket.foreground":"#ff0000"
+		},
+		"[Bearded Theme Earth]": {
+			"editorCursor.background": "#ffff00",
+			"editorCursor.foreground": "#ffff00",
+			"activityBar.background": "#1E1615",
+			"editorGroupHeader.tabsBackground": "#1E1615",
+			"tab.hoverBorder": "#CF3A76",
+			"scrollbar.shadow": "#444444",
+
+			"editorBracketHighlight.foreground1": "#F5B400",
+			"editorBracketHighlight.foreground2": "#870082",
+			"editorBracketHighlight.foreground3": "#FF7B00",
+			"editorBracketHighlight.foreground4": "#8108C7",
+			"editorBracketHighlight.foreground5": "#A974FF",
+			"editorBracketHighlight.foreground6": "#FF7B00",
+			"editorBracketHighlight.unexpectedBracket.foreground":"#ff0000"
+		},
+
+		"titleBar.border": "#00000000",
+		"editorOverviewRuler.border": "#00000000",
+		"editorGroupHeader.border": "#00000000",
+		"activityBar.border": "#00000000",
+		"sideBar.border": "#00000000",
+		"sideBarSectionHeader.border": "#00000000",
+	},
+// END of Workbench settings.
+
+
+
+// START of Miscelaneous settings:
+	"telemetry.telemetryLevel": "off",
+	"redhat.telemetry.enabled": false,
+	"update.mode": "start",
+	"window.restoreWindows": "none",
+	"window.enableMenuBarMnemonics": false,
+	"window.autoDetectHighContrast": false,
+	"window.autoDetectColorScheme": false,
+	"window.titleSeparator": " @ ",
+	"explorer.incrementalNaming": "smart",
+	"extensions.ignoreRecommendations": true,
+// END of Miscelaneous settings.
+
+
+
+// START of Terminal, Powershell and OmniSharp settings:
+	"terminal.integrated.profiles.windows": {
+		"PowerShell": {
+			"source": "PowerShell",
+			"args": ["-NoLogo"],
+			"icon": "terminal-powershell",
+			"color": "terminal.ansiMagenta"
+		}
+	},
+	"terminal.integrated.commandsToSkipShell": [
+		"editor.action.clipboardPasteAction"
+	],
+	"terminal.integrated.defaultProfile.windows": "PowerShell",
+	"terminal.integrated.cursorBlinking": true,
+	"terminal.integrated.cursorStyle": "line",
+	"terminal.integrated.cursorWidth": 3,
+	"terminal.external.windowsExec": "C:\\Program Files\\PowerShell\\7\\pwsh.exe",
+	"powershell.promptToUpdatePowerShell": false,
+	"powershell.codeFormatting.pipelineIndentationStyle": "IncreaseIndentationAfterEveryPipeline",
+	"powershell.codeFormatting.trimWhitespaceAroundPipe": true,
+	"powershell.codeFormatting.useCorrectCasing": true,
+	"powershell.integratedConsole.showOnStartup": false,
+	"powershell.integratedConsole.suppressStartupBanner": true,
+	"omnisharp.useModernNet": true,
+// END of terminal and Powershell settings.
+
+
+
+// START of extension settings: Sundial - Day/Night Theme/Settings Switch (By: Marvin Heilemann):
+	"sundial.autoLocale": false,
+	"sundial.interval": 15,
+	"sundial.sunrise": "05:00",
+	"sundial.sunset": "05:00", // same as sunrise in order keep night/day theme to manual but still have day and night settings throught 'shift + alt + D'.
+	"workbench.preferredLightColorTheme": "Bearded Theme Solarized Light",
+	"workbench.preferredDarkColorTheme": "Bearded Theme Earth",
+	"sundial.daySettings": {},
+	"sundial.nightSettings": {},
+// END of extension settings: Sundial - Day/Night Theme/Settings Switch (By: Marvin Heilemann).
+
+
+
+// START of extension settings: Code Runner (By: Jun Han):
+	"code-runner.runInTerminal": true,
+// END of extension settings: Code Runner (By: Jun Han).
+
+
+
+// START of extension settings: CodeSnap (By: Adpyke):
+	"codesnap.showWindowControls": false,
+// END of extension settings: CodeSnap (By: Adpyke).
+
+
+
+// START of extension settings: Live Server (By: Ritwick Dey):
+	"liveServer.settings.donotShowInfoMsg": true,
+// END of extension settings: Live Server (By: Ritwick Dey).
+
+
+
+// START of extension settings: Highlight (By: Fabio Spampinato):
+	"highlight.maxMatches": 200,
+	"highlight.decorations": {
+		"rangeBehavior": 3
+	},
+	"highlight.regexes": {
+		"(?<!\\w)(#[a-f0-9]{3,4}|#[a-f0-9]{6}|#[a-f0-9]{8}|rgba?\\s*\\([^)]*?\\)|hsla?\\s*\\([^)]*?\\))(?!\\w)": [
+			{
+				"rangeBehavior": 1,
+				"borderWidth": "2px",
+				"borderColor": "$1",
+				"borderStyle": "solid"
+			}
+			],
+		"((?:<!-- *)?(?:#|\/\/ @|\/\/|.\/\\*+|<!--|--|\\* @|{!|{{!--|{{!) *(?:TODO:|A FAZER:)(?:\\s*\\([^)]+\\))?:?)((?!\\w)(?: *-->| *\\*\/| *!}| *--}}| *}}|(?= *(?:[^:]\/\/|\/\\*+|<!--|@|--|{!|{{!--|{{!))|(?: +[^\\n@]*?)(?= *(?:[^:]\/\/|\/\\*+|<!--|@|--(?!>)|{!|{{!--|{{!))|(?: +[^@\\n]+)?))": {
+		"filterFileRegex": ".*(?<!CHANGELOG.md)$",
+		"regexFlags": "g",
+		"decorations": [ // Example: #TODO: Something to do... //TODO: sunmor TODOs... <!-- A FAZER: Muito. -->
+			{
+			"overviewRulerColor": "#ced126",
+			"backgroundColor": "#ced126",
+			"color": "#000000",
+			"fontWeight": "bold"
+			},
+			{
+			"backgroundColor": "#ced126",
+			"color": "#000000"
+			}
+		]
+		},
+		"((?:<!-- *)?(?:#|\/\/ @|\/\/|.\/\\*+|<!--|--|\\* @|{!|{{!--|{{!) *(?:FIXME:|FIX:|BUG:|UGLY:|DEBUG:|HACK:|CONSERTAR:)(?:\\s*\\([^)]+\\))?:?)((?!\\w)(?: *-->| *\\*\/| *!}| *--}}| *}}|(?= *(?:[^:]\/\/|\/\\*+|<!--|@|--|{!|{{!--|{{!))|(?: +[^\\n@]*?)(?= *(?:[^:]\/\/|\/\\*+|<!--|@|--(?!>)|{!|{{!--|{{!))|(?: +[^@\\n]+)?))": {
+		"filterFileRegex": ".*(?<!CHANGELOG.md)$",
+		"regexFlags": "g",
+		"decorations": [ // Example: #FIXME: Something to fix... //FIX: many things to fix... <!-- CONSERTAR: algo para consertar... -->
+			{
+			"overviewRulerColor": "#df1717",
+			"backgroundColor": "#df1717",
+			"color": "#000000",
+			"fontWeight": "bold"
+			},
+			{
+			"backgroundColor": "#df1717",
+			"color": "#000000"
+			}
+		]
+		},
+		"((?:<!-- *)?(?:#|\/\/ @|\/\/|.\/\\*+|<!--|--|\\* @|{!|{{!--|{{!) *(?:REVIEW:|REMINDER:|OPTIMIZE:|TSC:|REVISAR:|LEMBRETE:|OTIMIZAR:)(?:\\s*\\([^)]+\\))?:?)((?!\\w)(?: *-->| *\\*\/| *!}| *--}}| *}}|(?= *(?:[^:]\/\/|\/\\*+|<!--|@|--|{!|{{!--|{{!))|(?: +[^\\n@]*?)(?= *(?:[^:]\/\/|\/\\*+|<!--|@|--(?!>)|{!|{{!--|{{!))|(?: +[^@\\n]+)?))": {
+		"filterFileRegex": ".*(?<!CHANGELOG.md)$",
+		"regexFlags": "g",
+		"decorations": [ // Example: #REVIEW: Something to review... //OPTIMIZE: optimize after review. <!-- LEMBRETE: um lembrete para lembrar. -->
+			{
+			"overviewRulerColor": "#1ba9cc",
+			"backgroundColor": "#1ba9cc",
+			"color": "#000000",
+			"fontWeight": "bold"
+			},
+			{
+			"backgroundColor": "#1ba9cc",
+			"color": "#000000"
+			}
+		]
+		},
+		"((?:<!-- *)?(?:#|\/\/ @|\/\/|.\/\\*+|<!--|--|\\* @|{!|{{!--|{{!) *(?:IDEA:|IDEIA:)(?:\\s*\\([^)]+\\))?:?)((?!\\w)(?: *-->| *\\*\/| *!}| *--}}| *}}|(?= *(?:[^:]\/\/|\/\\*+|<!--|@|--|{!|{{!--|{{!))|(?: +[^\\n@]*?)(?= *(?:[^:]\/\/|\/\\*+|<!--|@|--(?!>)|{!|{{!--|{{!))|(?: +[^@\\n]+)?))": {
+		"filterFileRegex": ".*(?<!CHANGELOG.md)$",
+		"regexFlags": "g",
+		"decorations": [ // Example: #IDEA: Some idea... //IDEA: ...don't have any. <!-- IDEIA: Genial a sua ideia, agora ela é minha. -->
+			{
+			"overviewRulerColor": "#cc00cc",
+			"backgroundColor": "#cc00cc",
+			"color": "#000000",
+			"fontWeight": "bold"
+			},
+			{
+			"backgroundColor": "#cc00cc",
+			"color": "#000000"
+			}
+		]
+		},
+		"((?:<!-- *)?(?:#|\/\/ @|\/\/|.\/\\*+|<!--|--|\\* @|{!|{{!--|{{!) *(?:NOTE:|NOTA:|ANOTAÇÃO:)(?:\\s*\\([^)]+\\))?:?)((?!\\w)(?: *-->| *\\*\/| *!}| *--}}| *}}|(?= *(?:[^:]\/\/|\/\\*+|<!--|@|--|{!|{{!--|{{!))|(?: +[^\\n@]*?)(?= *(?:[^:]\/\/|\/\\*+|<!--|@|--(?!>)|{!|{{!--|{{!))|(?: +[^@\\n]+)?))": {
+		"filterFileRegex": ".*(?<!CHANGELOG.md)$",
+		"regexFlags": "g",
+		"decorations": [ // Example: #NOTE: Some note... //NOTE: u should write more notes... <!-- ANOTAÇÃO: Não exagerar nas anotações. -->
+			{
+			"overviewRulerColor": "#c0c0c0",
+			"backgroundColor": "#c0c0c0",
+			"color": "#000000",
+			"fontWeight": "bold"
+			},
+			{
+			"backgroundColor": "#c0c0c0",
+			"color": "#000000"
+			}
+		]
+		},
+		"((?:<!-- *)?(?:#|\/\/ @|\/\/|.\/\\*+|<!--|--|\\* @|{!|{{!--|{{!) *(?:EXAMPLE:|EXEMPLO:)(?:\\s*\\([^)]+\\))?:?)((?!\\w)(?: *-->| *\\*\/| *!}| *--}}| *}}|(?= *(?:[^:]\/\/|\/\\*+|<!--|@|--|{!|{{!--|{{!))|(?: +[^\\n@]*?)(?= *(?:[^:]\/\/|\/\\*+|<!--|@|--(?!>)|{!|{{!--|{{!))|(?: +[^@\\n]+)?))": {
+		"filterFileRegex": ".*(?<!CHANGELOG.md)$",
+		"regexFlags": "g",
+		"decorations": [ // Example: #EXAMPLE: One example //EXAMPLE: Two examples <!-- EXEMPLO: Três exemplos. -->
+			{
+			"overviewRulerColor": "#26de38",
+			"backgroundColor": "#26de38",
+			"color": "#000000",
+			"fontWeight": "bold"
+			},
+			{
+			"backgroundColor": "#26de38",
+			"color": "#000000"
+			}
+		]
+		}
+	}
+	// END of extension settings: Highlight (By: Fabio Spampinato).
+} // END of Visual Studio Code settings.
