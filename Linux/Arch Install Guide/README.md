@@ -1,4 +1,4 @@
-# Description [TODO];
+# Description;
 Nada demais aqui. Gosto de ser consistente com minha instalação do Arch, então aqui está um tutorial que escrevi para... Bom... Eu mesmo
 &nbsp;
 This is my (Johann/X3Hann) step-by-step Arch install.
